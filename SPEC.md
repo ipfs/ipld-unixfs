@@ -58,4 +58,4 @@ The `data` field can be either an Object or a Link. When representing a director
 the keys are the directory names and the values must be links to either `file` or `dir` nodes. When 
 the keyspace is too large for a single node `data` should be a link to `hamt` node.
 
-`hamt` has yet to specified but will follow the implementation [here](https://github.com/ipfs/go-hamt-ipld).
+`hamt` has not yet been specified but will follow the implementation [here](https://github.com/ipfs/go-hamt-ipld).
